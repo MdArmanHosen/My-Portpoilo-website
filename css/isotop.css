@@ -1,0 +1,35 @@
+.Arman{
+   text-align:right;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+button{
+    font-size: 15px;
+    background-color: transparent;
+    color:black;
+    font-weight: bold;
+    /* background-color:gray; */
+    border-radius: 5%;
+    transition: all 2s ease-in-out 2s;
+    border: 2px solid transparent;
+  
+}
+button:hover,.is-checked{
+  border-color:#4bcaff;
+  color:black;
+}
+.is-checked{
+    border: 2px solid #4bcaff !important;
+}
+img{
+    width: 100%;
+
+}
+.arman{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);   
+    grid-gap:20px; 
+}
+
+    
+
